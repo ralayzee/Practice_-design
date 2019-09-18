@@ -1,0 +1,18 @@
+.header-product-img{
+  position: absolute;
+  width: 60px;
+  top: 30px;
+  right: 30px;
+  @media(min-width: 768px){
+    width: 90px;
+    top: 40px;
+    right: 40px;
+    }
+}
+
+.product.productpage{
+  width: 100%;
+  @media(min-width: 992px){
+    width: 300px;
+    }
+  }

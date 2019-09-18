@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheets/all.css">
+  <title>Sweetaste</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light py-5">
+    <div class="container px-0 px-md-2">
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand py-0 mr-0" href="index.html">
+        <img src="images/logotype-sm-dark.svg" class="d-sm-none" height="18px" >
+        <img src="images/logo-all-dark.svg" class="d-none d-sm-block" height="40px">
+      </a>
+      <a href="cart.html" class="nav-link mt-1 order-lg-2"><i class="fas fa-shopping-cart ml-4" style="font-size:20px;"></i></a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active text-primary font-weight-bold px-0 mr-6" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link text-primary font-weight-bold px-0 mr-6" href="product.html">甜點</a>
+          <a class="nav-item nav-link text-primary font-weight-bold px-0 mr-6" href="login.html">登入</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <section>
+    <div class="container px-md-2">
+      <div class="row cart">
+        <!-- Cart items -->
+        <div class="col-md-8 text-primary">
+          <div class="bg-light h4 text-center mx-md-0" style="height: 56px; line-height: 56px; margin-left: -15px; margin-right: -15px;">您的購物車</div>
+          <div class="container px-md-0">
+            <!-- Items -->
+            <!-- 1 -->
+            <div class="d-md-flex justify-content-between pt-4 pb-0 pb-md-4 border-bottom border-light">
+              <div class="d-flex">
+                <div class="cart-item-image flex-grow-1 flex-md-grow-0" style="background-image: url('https://bit.ly/2QvsT63')"></div>
+                <!-- Name & amount -->
+                <div class="ml-3 ml-md-5 d-lg-flex align-items-center">
+                  <div class="mr-md-5">
+                    <div class="h5">焦糖馬卡龍</div>
+                    <div>NT$ 450</div>
+                  </div>
+                  <div class="input-group mt-2 mt-md-0 cart-amount">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-light text-primary rounded-0 px-3 minus" type="button">+</button>
+                    </div>
+                    <input type="text" class="form-control h-100 text-center border-light" value="1">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-light text-primary rounded-0 px-3 plus" type="button">+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Price -->
+              <div class="d-flex justify-content-end align-items-center border-top border-md-top-0 border-light mt-2 mt-md-0">
+                <div class="h5 my-2">NT450</div>
+                <a href="#" class="btn d-none d-md-block ml-5 text-primary" data-toggle="modal" data-target="#deleteItem" data-title="焦糖馬卡龍"><i class="fas fa-trash-alt" style="font-size: 20px;"></i></a>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="d-md-flex justify-content-between pt-4 pb-0 pb-md-4 border-bottom border-light">
+              <div class="d-flex">
+                <div class="cart-item-image flex-grow-1 flex-md-grow-0" style="background-image: url('https://bit.ly/2MN9D6U')"></div>
+                <!-- Name & amount -->
+                <div class="ml-3 ml-md-5 d-lg-flex align-items-center">
+                  <div class="mr-md-5">
+                    <div class="h5">抹茶蛋糕</div>
+                    <div>NT$ 600</div>
+                  </div>
+                  <div class="input-group mt-2 mt-md-0 cart-amount">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-light text-primary rounded-0 px-3 minus" type="button">+</button>
+                    </div>
+                    <input type="text" class="form-control h-100 text-center border-light" value="1">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-light text-primary rounded-0 px-3 plus" type="button">+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Price -->
+              <div class="d-flex justify-content-end align-items-center border-top border-md-top-0 border-light mt-2 mt-md-0">
+                <div class="h5 my-2">NT600</div>
+                <a href="#" class="btn d-none d-md-block ml-5 text-primary" data-toggle="modal" data-target="#deleteItem" data-title="抹茶蛋糕"><i class="fas fa-trash-alt" style="font-size: 20px;"></i></a>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="d-md-flex justify-content-between pt-4 pb-0 pb-md-4 border-bottom border-light">
+              <div class="d-flex">
+                <div class="cart-item-image flex-grow-1 flex-md-grow-0" style="background-image: url('https://bit.ly/2WKHEcJ')"></div>
+                <!-- Name & amount -->
+                <div class="ml-3 ml-md-5 d-lg-flex align-items-center">
+                  <div class="mr-md-5">
+                    <div class="h5">檸檬塔</div>
+                    <div>NT$ 250</div>
+                  </div>
+                  <div class="input-group mt-2 mt-md-0 cart-amount">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-light text-primary rounded-0 px-3 minus" type="button">+</button>
+                    </div>
+                    <input type="text" class="form-control h-100 text-center border-light" value="1">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-light text-primary rounded-0 px-3 plus" type="button">+</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Price -->
+              <div class="d-flex justify-content-end align-items-center border-top border-md-top-0 border-light mt-2 mt-md-0">
+                <div class="h5 my-2">NT250</div>
+                <a href="#" class="btn d-none d-md-block ml-5 text-primary" data-toggle="modal" data-target="#deleteItem" data-title="檸檬塔"><i class="fas fa-trash-alt" style="font-size: 20px;"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- Summary -->
+        <div class="col-md-4">
+          <div class="container cart-summary">
+            <div>
+              <div class="cart-summary-title h4 text-center" style="height: 56px; line-height: 56px;">訂單摘要</div>
+              <div class="d-flex mt-3 mb-1">
+                <span>小計</span>
+                <span class="ml-auto">NT$2,100</span>
+              </div>
+              <div class="d-flex mb-3">
+                <span>運費</span>
+                <span class="ml-auto">NT$70</span>
+              </div>
+              <div class="d-flex pb-3">
+                <span class="h5">總計</span>
+                <span class="h5 ml-auto">NT$2,170</span>
+              </div>
+            </div>
+          </div>
+          <a href="checkout1.html" class="bg-jun d-block text-center h4 mb-0 mx-md-0">結帳</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal delete -->
+  <div class="modal fade" id="deleteItem" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>確定要將此項目從購物車中刪除 ?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger">確認</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Email  -->
+  <section class="email bg-primary pb-5 pb-md-0">
+    <div class="container px-5 px-md-2">
+      <div class="row no-gutters justify-content-center">
+        <div class="col-12 col-md-10">
+          <div class="row no-gutters">
+            <div class="col-md-6 my-5 d-flex align-items-center justify-content-center justify-content-md-start">
+              <img class="" src="images/logo-light.svg" alt="">
+              <p class="h5 text-light d-inline-block pl-4 mb-0">訂閱你我的甜蜜郵件</p>
+            </div>
+            <div class="col-md-6">
+              <div class="my-md-5">
+                <div class="input-group rounded-0 position-relative">
+                  <label><i class="fas fa-envelope"></i></label>
+                  <input type="text" class="form-control form-control-custom rounded-0">
+                  <div class="input-group-append">
+                    <button class="btn btn-jun rounded-0" type="button"><i class="fas fa-arrow-right" style="color: #3F5D45"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-light">
+    <div class="container px-5 px-md-2">
+      <div class="row no-gutters justify-content-center">
+        <div class="col-12 col-md-10">
+          <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-between">
+              <img src="images/logotype.svg">
+              <div class="footer-text text-primary">
+                <p>07-1234-5678<br>sweetaste@email.com 800<br>高雄市新興區幸福路 520 號</p>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+              <div class="d-none d-md-block footer-img">
+                <img src="images/sm-今天是個吃甜點的好日子.svg" style="width: 60px">
+              </div>
+            </div>
+          </div>
+          <div class="d-md-flex align-items-center justify-content-between mb-5">
+            <div class="footer-media">
+              <i class="fab fa-snapchat-square"></i>
+              <i class="fab fa-facebook-square"></i>
+            </div>
+            <div>© 2018 Sweetaste* All Rights Reserved</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/all.js"></script>
+</body>
+</html>

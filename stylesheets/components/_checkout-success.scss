@@ -1,0 +1,10 @@
+
+header{
+  .success-img{
+    background: no-repeat center center / cover;
+    height: 518px;
+    @media(min-width: 768px){
+      height: 460px;
+    }
+  }
+}

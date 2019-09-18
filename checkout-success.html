@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheets/all.css">
+  <title>Sweetaste</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light py-5">
+    <div class="container px-0 px-md-2">
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand py-0 mr-0" href="index.html">
+        <img src="images/logotype-sm-dark.svg" class="d-sm-none" height="18px" >
+        <img src="images/logo-all-dark.svg" class="d-none d-sm-block" height="40px">
+      </a>
+      <a href="cart.html" class="nav-link mt-1 order-lg-2"><i class="fas fa-shopping-cart ml-4" style="font-size:20px;"></i></a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active text-primary font-weight-bold px-0 mr-6" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link text-primary font-weight-bold px-0 mr-6" href="product.html">甜點</a>
+          <a class="nav-item nav-link text-primary font-weight-bold px-0 mr-6" href="login.html">登入</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <header>
+    <div class="container px-0 px-md-2">
+      <div class="success-img row no-gutters d-flex justify-content-center align-items-center mb-md-6" style="background-image: url('https://bit.ly/2P7GhNd')">
+      <!-- 需注意若使用position: absolute，用d-flex會影響relative的物件 -->
+        <div class="col-6 col-md-4">
+          <div class="d-flex flex-column text-center align-items-center">
+            <div class="timeline-wrap w-75 d-flex mr-4">
+              <div class="timeline timeline-dark w-100"></div>
+              <div class="dot dot-dark dot1 check-reverse"><i class="fas fa-check"></i></div>
+              <div class="dot dot-dark dot2 check-reverse"><i class="fas fa-check"></i></div>
+              <div class="dot dot-dark dot3 check-reverse"><i class="fas fa-check"></i></div>
+            </div>
+            <h1 class="text-primary font-weight-bold mt-5">付款成功</h1>
+            <a href="index.html" class="bg-jun d-none d-md-block text-center h4 mt-5 my-0 main-btn" style="width: 300px;">繼續逛逛</a>
+          </div>
+        </div>
+
+      </div>
+      <a href="index.html" class="bg-jun d-block d-md-none text-center h4 m-0 main-btn">繼續逛逛</a>
+    </div>
+  </header>
+
+
+
+  <!--Email  -->
+  <section class="email bg-primary pb-5 pb-md-0">
+    <div class="container px-5 px-md-2">
+      <div class="row no-gutters justify-content-center">
+        <div class="col-12 col-md-10">
+          <div class="row no-gutters">
+            <div class="col-md-6 my-5 d-flex align-items-center justify-content-center justify-content-md-start">
+              <img class="" src="images/logo-light.svg" alt="">
+              <p class="h5 text-light d-inline-block pl-4 mb-0">訂閱你我的甜蜜郵件</p>
+            </div>
+            <div class="col-md-6">
+              <div class="my-md-5">
+                <div class="input-group rounded-0 position-relative">
+                  <label><i class="fas fa-envelope"></i></label>
+                  <input type="text" class="form-control form-control-custom rounded-0">
+                  <div class="input-group-append">
+                    <button class="btn btn-jun rounded-0" type="button"><i class="fas fa-arrow-right" style="color: #3F5D45"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-light">
+    <div class="container px-5 px-md-2">
+      <div class="row no-gutters justify-content-center">
+        <div class="col-12 col-md-10">
+          <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-between">
+              <img src="images/logotype.svg">
+              <div class="footer-text text-primary">
+                <p>07-1234-5678<br>sweetaste@email.com 800<br>高雄市新興區幸福路 520 號</p>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+              <div class="d-none d-md-block footer-img">
+                <img src="images/sm-今天是個吃甜點的好日子.svg" style="width: 60px">
+              </div>
+            </div>
+          </div>
+          <div class="d-md-flex align-items-center justify-content-between mb-5">
+            <div class="footer-media">
+              <i class="fab fa-snapchat-square"></i>
+              <i class="fab fa-facebook-square"></i>
+            </div>
+            <div>© 2018 Sweetaste* All Rights Reserved</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/all.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+
+// utilities
+.word-vertical{
+  writing-mode: vertical-rl;
+}
+
+@media(min-width: 768px){
+  .word-md-vertical{
+    writing-mode: vertical-rl;
+  }
+}
+
+// Header
+header{
+  .header-img{
+    background: no-repeat center center / cover;
+    height: 277px;
+    @media(min-width: 768px){
+      height: 496px;
+    }
+  }
+  .col-4 a{
+    height: 180px;
+    text-decoration: none;
+    @media(min-width: 768px){
+      height: 256px;
+    }
+  }
+}
+
+
+.banner-group{
+  @media(min-width: 768px){
+    margin-top: -90px;
+  }
+}
+
+.section-why-image{
+  background: no-repeat center center / cover;
+  height: 250px;
+  @media(min-width: 768px){
+    height: 460px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+  }
+}
+
+.section-title{
+  right: 0;
+}
+
+.section-text{
+  line-height: 2.5;
+}
+
+@media(min-width: 768px){
+  .section-bg{
+    height: 420px;
+  }
+}
+
+.product{
+  .product-bg{
+    background: no-repeat center center / cover;
+    height: 315px;
+  }
+  .product-tag{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    letter-spacing: 5px
+  }
+  .product-dec{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .product-content{
+    border: 1px solid theme-color("light");
+  }
+  a{
+    text-decoration: none;
+    height: 65px;
+    line-height: 65px;
+  }
+}
+
+// Email bottom
+.email{
+  img{
+    width: 40px;
+  }
+  p{
+    line-height: 40px;
+  }
+  label{
+    position: absolute;
+    left: 0;
+    z-index: 99;
+    font-size: 24px;
+    margin: 10px 0 10px 20px;
+    color: #3F5D45;
+  }
+  .form-control-custom{
+    height: 56px;
+    padding-left: 60px;
+  }
+  button{
+    width: 64px;
+  }
+}
+
+// Footer
+footer{
+  img{
+    width: 170px;
+    margin: 40px 0;
+  }
+  .footer-text{
+    margin-bottom: 30px;
+  }
+  .footer-media{
+    font-size: 32px;
+    color: #3F5D45;
+  }
+}

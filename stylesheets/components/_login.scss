@@ -1,0 +1,52 @@
+.login-top{
+  height: 110px;
+  h2{
+    line-height: 110px;
+  }
+}
+
+// Login
+.login{
+  @media(min-width: 768px){
+    height: 380px;
+    }
+  // input
+  img{
+    width: 40px;
+  }
+  p{
+    line-height: 40px;
+  }
+  .form-group label{
+    position: absolute;
+    left: 0;
+    z-index: 99;
+    font-size: 24px;
+    margin: 10px 0 10px 20px;
+    color: #3F5D45;
+  }
+  .form-control{
+    height: 56px;
+    padding-left: 60px;
+  }
+  // checkbox
+  .custom-checkbox .custom-control-label::before{
+  border-radius: 0px;
+  }
+  a{
+    height: 66px;
+    line-height: 66px;
+    text-decoration: none;
+  }
+}
+
+// Login Media
+.login-media{
+  .row button{
+    border-right: solid 1px #EAF0ED;
+    height: 56px;
+  }
+  @media(min-width: 768px){
+    height: 350px;
+    }
+}

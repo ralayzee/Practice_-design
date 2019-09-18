@@ -1,0 +1,12 @@
+// required
+@import "../node_modules/bootstrap/scss/functions";
+@import "helpers/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// customize
+@import "components/index";
+@import "components/product";
+@import "components/login";
+@import "components/cart";
+@import "components/checkout";
+@import "components/checkout-success";
